@@ -12,12 +12,10 @@ public class MainTest {
     //Объявляем переменную драйвера
     protected WebDriver driver;
 
-    // Инициализируем драйвер и указываем, какой использовать: ChromeDriver() или FirefoxDriver()
+    // Инициализируем драйвер
     @Before
     public void startUp() {
-        // WebDriverManager.firefoxdriver().setup();
         driver = new ChromeDriver();
-        // driver = new FirefoxDriver(); // если хотим  без бага
     }
 
     @After
