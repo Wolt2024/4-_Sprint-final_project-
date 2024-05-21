@@ -65,7 +65,7 @@ public class RentPage {
 
     public void clickOrderButton() {
         // Локатор кнопки заказа
-        By orderButtonLocator = By.xpath(".//button[@class='Button_Button__ra12g']");
+        By orderButtonLocator = By.xpath(".//div[@class= 'Order_Buttons__1xGrp']/button[text()='Заказать']");
         driver.findElement(orderButtonLocator).click();
 
     }
